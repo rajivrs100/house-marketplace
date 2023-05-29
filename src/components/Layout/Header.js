@@ -41,7 +41,7 @@ const Header = () => {
                 <NavLink
                   className={`nav-link ${({ isActive }) =>
                     isActive ? "active" : "inactive"}`}
-                  to="/"
+                  to="/offers"
                 >
                   Offers
                 </NavLink>
